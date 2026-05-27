@@ -193,22 +193,26 @@ Focus was on traceability rather than full compliance engine.
 
 ---
 
-## 11. Storage Choice (PostgreSQL vs Advanced Data Warehouse)
+## 11. Storage Choice (SQLite vs Advanced Data Warehouse)
 
 ### Tradeoff: Relational DB instead of analytics warehouse
 
 ### Why:
 
-PostgreSQL is sufficient for:
+SQLite is sufficient for:
 
-* structured ESG data
-* filtering
-* analyst workflows
+* sStructured ESG emission records
+* CRUD operations (create, read, update, delete)
+* Filtering and querying company-level data
+* API-driven backend workflows
 
 ### Impact:
 
-✔ Simple and fast setup
-❌ Not optimized for large-scale analytics pipelines
+✔ Simple backend architecture
+✔ Fast development and local testing
+✔ Easy integration with Django APIs
+❌ Limited scalability for massive analytics workloads
+❌ Not optimized for advanced BI pipelines or real-time aggregation
 
 ---
 

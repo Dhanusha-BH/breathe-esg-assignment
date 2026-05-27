@@ -32,20 +32,20 @@ These would require additional setup for ORM, authentication, and structure, whi
 
 ## 3. Database Choice
 
-### Decision: PostgreSQL
+### Decision: SQLite
 
-### Why PostgreSQL:
+### Why SQLite:
 
-* Reliable relational database for structured ESG data
-* Strong support for filtering and reporting
-* Better suited for multi-tenant systems
-* Scales well for enterprise workloads
+* Lightweight and easy to set up for development
+* No external database server required
+* Ideal for rapid prototyping and local testing
+* Automatically integrates with Django without configuration
 
-### Why not SQLite:
+### Why not PostgreSQL:
 
-* Not suitable for production-like workloads
-* Limited concurrency handling
-* Not realistic for enterprise ESG systems
+* Requires additional setup and configuration
+* Needs database server installation or cloud setup
+* Slows down quick local development iterations
 
 ---
 

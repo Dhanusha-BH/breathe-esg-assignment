@@ -9,9 +9,9 @@ The system was built using:
 * Backend: Django REST Framework
 * Frontend:React
 * Authentication:JWT (JSON Web Token)
-* Database:PostgreSQL
+* Database:SQLite3
 
-PostgreSQL was selected because ESG systems handle structured enterprise data, multi-tenant access, and large record volumes. Compared to lightweight databases, PostgreSQL is better suited for production-style systems and future scalability.
+
 
 The prototype supports ingestion from three realistic enterprise source types:
 

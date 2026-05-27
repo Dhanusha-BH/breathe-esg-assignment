@@ -19,7 +19,7 @@ The system simulates enterprise ESG ingestion workflows commonly found in SAP, u
 
 * Django
 * Django REST Framework
-* PostgreSQL
+* SQLite
 * JWT Authentication
 
 ### Frontend
@@ -240,7 +240,7 @@ Key decisions:
 
 The application is deployed on:
 
-> 🔗 Add deployed URL here
+> 🔗  deployed URL here
 
 Backend and frontend can be hosted on:
 
