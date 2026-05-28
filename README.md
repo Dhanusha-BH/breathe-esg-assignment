@@ -236,16 +236,15 @@ Key decisions:
 
 ---
 
-## 12. Deployment
+## 🚀 Deployed Links
 
-The application is deployed on:
-
-> 🔗  deployed URL here
+- **Frontend:** https://breathe-esg-assignment-self.vercel.app
+- **Backend API:** https://breathe-esg-assignment1-rd0a.onrender.com
+- **Admin Panel:** https://breathe-esg-assignment1-rd0a.onrender.com/admin/
 
 Backend and frontend can be hosted on:
 
-* Render
-* Railway
+* Render (backend)
 * Vercel (frontend)
 
 ---
